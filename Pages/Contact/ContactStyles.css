@@ -1,0 +1,35 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7%;
+  padding: 5%;
+  background-color: #9dc416;
+}
+
+h2 {
+  color: rgba(10, 10, 10, 0.932);
+  /* font-family: "Poppins"; */
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.address {
+  color: rgb(7, 7, 7);
+  font-family: "Poppins";
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.responsive-map {
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 30%;
+}
+
+.responsive-map iframe {
+  border: 0;
+}

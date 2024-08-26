@@ -1,0 +1,19 @@
+.image_sliding {
+  width: 100%;
+  padding: 2px 50px;
+  height: 51vh;
+  background-color: black;
+}
+
+.image_sliding img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+.slick-slide {
+  margin: 1px 5px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
